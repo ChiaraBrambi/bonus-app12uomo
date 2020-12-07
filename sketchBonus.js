@@ -1,16 +1,13 @@
-//impostazioni riconoscimento vocale
-
-
-let lang = 'it-IT';
-let speechRec = new p5.SpeechRec(lang, gotSpeech);
-
-//colori contenitori parole
-let textColorS = '#877B85';
-let textColorD = '#877B85';
-let textColorC = '#877B85';
-let bButtonColorS = '#F9F9F9';
-let bButtonColorD = '#F9F9F9';
-let bButtonColorC = '#F9F9F9';
+// //impostazioni riconoscimento vocale
+// let lang = 'it-IT';
+// let speechRec = new p5.SpeechRec(lang, gotSpeech);
+// //colori contenitori parole
+// let textColorS = '#877B85';
+// let textColorD = '#877B85';
+// let textColorC = '#877B85';
+// let bButtonColorS = '#F9F9F9';
+// let bButtonColorD = '#F9F9F9';
+// let bButtonColorC = '#F9F9F9';
 
 //icone
 let baloonIcon, baloon_Puntini,noParola , logor, freccia;

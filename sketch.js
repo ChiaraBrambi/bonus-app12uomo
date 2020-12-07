@@ -1,12 +1,10 @@
-
-let logoIcon;
 let icon;
 let w, h, s; //posizione
 /////////////////////////////////////////////////////////////////////////
 
 function preload() {
-  logoIcon = loadImage("./assets/logopausa.png");
-  icon = loadImage("./assets/noParola.png"); //trombetta chiara
+
+  icon = loadImage("./assets/line.png");
 }
 /////////////////////////////////////////////////////////////////////////
 function setup() {
@@ -19,8 +17,8 @@ function draw() {
   imageMode(CENTER); //per pittogrammi
   w = width / 20;
   h = height / 50;
-//  image(logoIcon,  width/2 , height / 2, logoIcon.width/7, logoIcon.height/7);
-//  image(icon, width / 2, height / 6*4.5, icon.width / 6, icon.height /6);
+
+image(icon, width / 2, height / 2, icon.width / 6, icon.height /6);
 
   //testo caratteristiche
   textFont('quicksand');
